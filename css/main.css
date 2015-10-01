@@ -2517,15 +2517,16 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 @media print { .hidden-print { display: none !important; } }
 /* Wrappers */
 .wrapper { -webkit-transition: all 0.4s ease; transition: all 0.4s ease; }
+@media (min-width: 768px) { .wrapper { padding-left: 250px; } }
 .wrapper.toggled { padding-left: 250px; }
 @media (min-width: 768px) { .wrapper.toggled { padding-left: 0; } }
 .wrapper.toggled > .sidebar-wrapper { width: 250px; }
 @media (min-width: 768px) { .wrapper.toggled > .sidebar-wrapper { width: 0; } }
 .wrapper.toggled > .page-content-wrapper { position: absolute; margin-right: -250px; }
 @media (min-width: 768px) { .wrapper.toggled > .page-content-wrapper { position: relative; margin-right: 0; } }
-@media (min-width: 768px) { .wrapper { padding-left: 250px; } }
 
 .sidebar-wrapper { z-index: 1000; position: fixed; left: 250px; width: 0; height: 100%; margin-left: -250px; overflow-y: auto; background: #222; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; }
+@media (min-width: 768px) { .sidebar-wrapper { width: 250px; } }
 
 .page-content-wrapper { width: 100%; position: absolute; padding: 15px; }
 @media (min-width: 768px) { .page-content-wrapper { padding: 20px; position: relative; } }

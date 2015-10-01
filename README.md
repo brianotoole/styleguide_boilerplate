@@ -1,4 +1,4 @@
-# SMG Web: Brand Styleguide Template
+# SMG Web: Brand Styleguide Boilerplate
 
 ## Overview
 
