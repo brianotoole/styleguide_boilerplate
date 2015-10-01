@@ -1,8 +1,8 @@
-# [SMG Web: Brand Styleguide Template]
+# SMG Web: Brand Styleguide Template
 
 ## Overview
 
-This repo servers as the boilerplate for web projects involving an online brand styleguide / identity.(http://startbootstrap.com/).
+This repo servers as the boilerplate for web projects involving an online brand styleguide / identity.
 
 ## Getting Started
 
