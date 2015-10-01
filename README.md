@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repo servers as the boilerplate for web projects involving an online brand styleguide / identity.
+This repo can serve as a boilerplate for client projects that need an online brand styleguide to keep front-end assets insync.
 
 ## Getting Started
 
