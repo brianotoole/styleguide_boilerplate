@@ -76,6 +76,7 @@
 	   	 	&:hover {
 		   		text-decoration: none;
 		   		color: white;	
+		   		background: darken($gray,5%);
 	   	 	}
 	   	 	&:active, &:focus {
 		   	 	text-decoration: none;
@@ -94,4 +95,11 @@
 			}
 	  	}    
     }
+}
+
+/* Navigation */
+.menu-toggle {
+	@include breakpoint(sm) { 
+		display: none;
+	}
 }
