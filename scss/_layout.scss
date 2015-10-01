@@ -67,7 +67,14 @@
     list-style: none;
     li {
    		text-indent: 20px;
-   	 	line-height: 40px;	 
+   	 	line-height: 40px;	
+   	 	
+   	 	&:first-child {
+   	 		padding-top: 15px;
+	   	 	@include breakpoint(sm) { 
+	   	 		padding-top: 75px;
+	   	 	}
+   	 	} 
    	 	
    	 	a {
 	   	 	display: block;
@@ -103,3 +110,65 @@
 		display: none;
 	}
 }
+
+/* Colors */
+.swatch {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 4px;
+	&.color1 {
+		background-color: $color1;
+	}
+	&.color2 {
+		background-color: $color2;
+	}
+	&.color3 {
+		background-color: $color3;
+	}
+}
+
+.pre, 
+pre {
+	padding: 10px;
+	overflow: auto;
+	font-size: 85%;
+	line-height: 1.5;
+	background-color: $lightgray;
+	border: none;
+	border-radius: 4px;
+	> code {
+		padding: 0;
+		margin: 0;
+		font-size: 100%;
+		word-break: normal;
+		white-space: pre;
+		background: transparent;
+		border: 0;
+	}
+}
+
+.btn {
+    transition: all 0.4s ease;
+    
+	&.transparent {
+		background-color: transparent;
+		color: $black;
+		border-color: $black;
+	}
+	&.color1 {
+		background-color: $color1;
+		color: white;
+		&:hover {
+			background-color: darken($color1,10%);
+		}
+	}
+	&.color2 {
+		background-color: $color2;
+		color: white;
+		&:hover {
+			background-color: darken($color2,10%);
+		}
+	}
+	
+}//.btn

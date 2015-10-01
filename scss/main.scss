@@ -2,8 +2,16 @@
 
 
 // Variables
+//boilerplate specific colors (leave alone)
 $black: #222;
 $gray: #999;
+$lightgray: #f7f7f7;
+
+//brand specifc colors (edit these)
+$color1: #4078c0;
+$color2: #6cc644;
+$color3: #bd2c00;
+
 
 // Mixins
 @mixin breakpoint($point) { //media query breakpoint; for usage within layout stylesheet
