@@ -11,6 +11,7 @@ To use this template, do the following:
 * Install it into project directory.
 * Uses Sass; Codekit or similar compiler is recommended
 * Sass compiles to: css/main.css  (scss/main.scss = main stylesheet)
+* Use 'config.php' to edit branding variables
 * Add / Remove or Edit content with your site's information
 * That's all folks.
 
