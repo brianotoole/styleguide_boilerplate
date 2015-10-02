@@ -1,3 +1,7 @@
+<?php include 
+//get variables
+	'config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SMG Web: Online Styleguide Boilerplate</title>
+    <title><?php echo $siteTitle; ?></title>
 
     <link href="css/main.css" rel="stylesheet">
     
@@ -66,9 +70,9 @@
                 <div class="row">
                     <div class="col-lg-12" id="colors">
                         <h2>Colors</h2>
-						<div class="swatch color1"></div>
-						<div class="swatch color2"></div>
-						<div class="swatch color3"></div>
+						<div class="swatch color1" style="background-color:<?php echo $color1; ?>"></div>
+						<div class="swatch color2" style="background-color:<?php echo $color2; ?>"></div>
+						<div class="swatch color3" style="background-color:<?php echo $color3; ?>"></div>
                     </div>
                 </div><hr />
                 
@@ -111,9 +115,11 @@
                         <!-- Button Primary -->
 						<button type="button" class="btn transparent">Transparent</button>
 						<!-- Button Color1 -->
-						<button type="button" class="btn color1">Color1</button>
+						<button type="button" class="btn color1" style="background-color:<?php echo $color1; ?>">Color1</button>
 						<!-- Button Color2 -->
-						<button type="button" class="btn color2">Color2</button>
+						<button type="button" class="btn color2" style="background-color:<?php echo $color2; ?>">Color2</button>
+						<!-- Button Color3 -->
+						<button type="button" class="btn color3" style="background-color:<?php echo $color3; ?>">Color2</button>
 						
                     </div>
                 </div><hr />
